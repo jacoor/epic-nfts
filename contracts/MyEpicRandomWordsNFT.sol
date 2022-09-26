@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.12;
+pragma solidity ^0.8.17;
 
 // We need some util functions for strings.
 import "@openzeppelin/contracts/utils/Strings.sol";

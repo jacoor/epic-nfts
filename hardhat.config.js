@@ -2,11 +2,11 @@ require('@nomiclabs/hardhat-waffle');
 require("dotenv").config({ path: ".env" });
 
 module.exports = {
-  solidity: '0.8.12',
+  solidity: '0.8.17',
   networks: {
-    rinkeby: {
+    goerli: {
       url: process.env.QUICKNODE_API_KEY_URL,
-      accounts: [process.env.RINKEBY_PRIVATE_KEY],
+      accounts: [process.env.GOERLI_PRIVATE_KEY],
     },
   },
 };
